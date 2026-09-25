@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ML artifacts (large, regenerable)
+ml/data/raw/
+*.pt
+*.pth
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Web (later phases)
+node_modules/
+.next/
+.env*

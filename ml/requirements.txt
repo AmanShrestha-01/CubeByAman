@@ -1,0 +1,8 @@
+# Phase 1 — sticker colour classifier
+# Install with:  pip install -r requirements.txt   (inside ml/.venv)
+torch==2.14.0          # tensors, autograd, neural-network building blocks
+torchvision==0.29.0    # image datasets, transforms, pretrained vision models
+opencv-python==5.0.0   # image loading / colour-space conversion (HSV baseline)
+matplotlib==3.11.2     # plotting images, loss curves, confusion matrices
+jupyter                # notebook environment
+ipykernel              # lets Jupyter/VS Code run code with this .venv
