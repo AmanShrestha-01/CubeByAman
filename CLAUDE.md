@@ -34,7 +34,7 @@ Rule: do not start step 4 until the baseline numbers are recorded below.
 ### Results log
 | Model | Overall acc. | Bad-lighting acc. | Notes |
 |-------|--------------|-------------------|-------|
-| HSV baseline | – | – | not yet measured |
+| HSV baseline | 100% (318/318 test_normal) | 100% (212/212, dim only) | train 99.5%: 2 glare blues → white. Rules: S<71 white; H<8 red, <19 orange, <37 yellow, <79 green, <143 blue, else red. Fences = midpoints of train ranges, outliers ignored |
 | CNN | – | – | not yet trained |
 
 ### Dataset (photos are gitignored, so this is the record)
@@ -62,6 +62,11 @@ is glare that looks white but is correctly labelled blue.
 - Let me type the key lines myself (training loop, forward pass).
 - Define every new deep learning term in one sentence when it first appears.
 - After each step, ask me one question to check I understood.
+- Whenever I ask for an explanation or recap, write it so I can retell it to
+  three audiences: non-technical people, coding friends, and software
+  recruiters. Cover the procedure step by step, the tools used and why, and
+  how the image/colour recognition actually works. Be honest about what's
+  built vs. not yet (e.g. rules vs. a trained model, manual vs. automatic).
 - Never skip ahead to later phases.
 - This is more learning than building. With every prompt, give me a detailed
   guide to what is going on: what you are doing, why, and how it fits the
