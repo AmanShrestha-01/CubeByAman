@@ -6,6 +6,7 @@ __pycache__/
 
 # ML artifacts (large, regenerable)
 ml/data/raw/
+ml/data/stickers/
 *.pt
 *.pth
 
