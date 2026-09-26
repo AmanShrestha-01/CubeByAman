@@ -17,8 +17,8 @@ I know Next.js, TypeScript, Supabase. I finished one classical ML project
 
 ## Phase 1 plan (sticker colour classifier)
 0. Environment check ✅
-1. Tensors: how an image becomes numbers  ← CURRENT STEP
-2. Dataset: collect and label sticker images. Keep a held-out test set that
+1. Tensors: how an image becomes numbers ✅
+2. Dataset: collect and label sticker images  ← CURRENT STEP. Keep a held-out test set that
    includes BAD LIGHTING (dim room, warm/yellow bulb, shadow, glare).
 3. **Non-ML baseline (REQUIRED before any CNN):** classify with HSV thresholds
    in OpenCV. Measure accuracy on the test set, both overall and on the
