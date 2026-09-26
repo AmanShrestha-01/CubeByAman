@@ -1,0 +1,650 @@
+{
+ "train/white/IMG_7833.JPG": [
+  780,
+  1581,
+  968,
+  1066
+ ],
+ "train/white/IMG_7834.JPG": [
+  417,
+  1348,
+  2204,
+  2262
+ ],
+ "train/white/IMG_7835.JPG": [
+  1057,
+  1443,
+  1044,
+  1111
+ ],
+ "train/white/IMG_7836.JPG": [
+  1245,
+  1340,
+  753,
+  771
+ ],
+ "train/white/IMG_7837.JPG": [
+  712,
+  1613,
+  1366,
+  1402
+ ],
+ "train/white/IMG_7838.JPG": [
+  1183,
+  1236,
+  1268,
+  1219
+ ],
+ "train/white/IMG_7839.JPG": [
+  784,
+  1331,
+  1313,
+  1290
+ ],
+ "train/white/IMG_7840.JPG": [
+  726,
+  1487,
+  1662,
+  1595
+ ],
+ "train/yellow/IMG_7849.JPG": [
+  520,
+  1138,
+  1438,
+  1353
+ ],
+ "train/yellow/IMG_7850.JPG": [
+  986,
+  1147,
+  1402,
+  1384
+ ],
+ "train/yellow/IMG_7851.JPG": [
+  766,
+  1205,
+  1429,
+  1357
+ ],
+ "train/yellow/IMG_7852.JPG": [
+  435,
+  1366,
+  1389,
+  1416
+ ],
+ "train/yellow/IMG_7853.JPG": [
+  466,
+  1604,
+  1420,
+  1407
+ ],
+ "train/yellow/IMG_7854.JPG": [
+  591,
+  542,
+  1555,
+  1519
+ ],
+ "train/yellow/IMG_7855.JPG": [
+  995,
+  1245,
+  1501,
+  1460
+ ],
+ "train/yellow/IMG_7856.JPG": [
+  1299,
+  1272,
+  1492,
+  1465
+ ],
+ "train/red/IMG_7841.JPG": [
+  883,
+  1680,
+  1371,
+  1357
+ ],
+ "train/red/IMG_7842.JPG": [
+  878,
+  1465,
+  1214,
+  1147
+ ],
+ "train/red/IMG_7843.JPG": [
+  1192,
+  2209,
+  1147,
+  1268
+ ],
+ "train/red/IMG_7844.JPG": [
+  1044,
+  659,
+  1174,
+  1228
+ ],
+ "train/red/IMG_7845.JPG": [
+  1725,
+  1662,
+  1142,
+  1223
+ ],
+ "train/red/IMG_7846.JPG": [
+  1205,
+  1613,
+  1160,
+  1241
+ ],
+ "train/red/IMG_7847.JPG": [
+  1178,
+  945,
+  1272,
+  1192
+ ],
+ "train/red/IMG_7848.JPG": [
+  744,
+  515,
+  1210,
+  1263
+ ],
+ "train/orange/IMG_7857.JPG": [
+  936,
+  1537,
+  1353,
+  1501
+ ],
+ "train/orange/IMG_7858.JPG": [
+  878,
+  1702,
+  1353,
+  1523
+ ],
+ "train/orange/IMG_7859.JPG": [
+  739,
+  1819,
+  1474,
+  1510
+ ],
+ "train/orange/IMG_7860.JPG": [
+  605,
+  1765,
+  1523,
+  1514
+ ],
+ "train/orange/IMG_7861.JPG": [
+  748,
+  1452,
+  1850,
+  1743
+ ],
+ "train/orange/IMG_7862.JPG": [
+  237,
+  1465,
+  1788,
+  1761
+ ],
+ "train/orange/IMG_7863.JPG": [
+  22,
+  1380,
+  1765,
+  1693
+ ],
+ "train/orange/IMG_7864.JPG": [
+  632,
+  1460,
+  1805,
+  1796
+ ],
+ "train/blue/IMG_7873.JPG": [
+  578,
+  1407,
+  1416,
+  1380
+ ],
+ "train/blue/IMG_7874.JPG": [
+  659,
+  1326,
+  1555,
+  1568
+ ],
+ "train/blue/IMG_7875.JPG": [
+  699,
+  1304,
+  1635,
+  1626
+ ],
+ "train/blue/IMG_7876.JPG": [
+  538,
+  1375,
+  1662,
+  1568
+ ],
+ "train/blue/IMG_7877.JPG": [
+  811,
+  1147,
+  1756,
+  1680
+ ],
+ "train/blue/IMG_7878.JPG": [
+  721,
+  923,
+  1958,
+  1953
+ ],
+ "train/blue/IMG_7879.JPG": [
+  323,
+  1205,
+  2186,
+  2088
+ ],
+ "train/blue/IMG_7880.JPG": [
+  439,
+  1192,
+  2119,
+  2115
+ ],
+ "train/green/IMG_7865.JPG": [
+  1093,
+  1084,
+  1375,
+  1313
+ ],
+ "train/green/IMG_7866.JPG": [
+  1116,
+  1317,
+  1537,
+  1546
+ ],
+ "train/green/IMG_7867.JPG": [
+  681,
+  1232,
+  1550,
+  1541
+ ],
+ "train/green/IMG_7868.JPG": [
+  730,
+  1299,
+  1595,
+  1608
+ ],
+ "train/green/IMG_7869.JPG": [
+  650,
+  1335,
+  1626,
+  1644
+ ],
+ "train/green/IMG_7870.JPG": [
+  573,
+  1183,
+  1716,
+  1676
+ ],
+ "train/green/IMG_7871.JPG": [
+  730,
+  1398,
+  1707,
+  1676
+ ],
+ "train/green/IMG_7872.JPG": [
+  618,
+  1393,
+  1805,
+  1725
+ ],
+ "test_normal/white/IMG_7881.JPG": [
+  762,
+  1098,
+  1505,
+  1460
+ ],
+ "test_normal/white/IMG_7882.JPG": [
+  659,
+  811,
+  1541,
+  1460
+ ],
+ "test_normal/white/IMG_7883.JPG": [
+  726,
+  1232,
+  1456,
+  1416
+ ],
+ "test_normal/white/IMG_7884.JPG": [
+  699,
+  1290,
+  1443,
+  1443
+ ],
+ "test_normal/white/IMG_7885.JPG": [
+  645,
+  1572,
+  1452,
+  1429
+ ],
+ "test_normal/white/IMG_7886.JPG": [
+  829,
+  1402,
+  1586,
+  1496
+ ],
+ "test_normal/yellow/IMG_7893.JPG": [
+  802,
+  1783,
+  1460,
+  1277
+ ],
+ "test_normal/yellow/IMG_7894.JPG": [
+  1004,
+  1577,
+  1357,
+  1304
+ ],
+ "test_normal/yellow/IMG_7895.JPG": [
+  1057,
+  1407,
+  1348,
+  1277
+ ],
+ "test_normal/yellow/IMG_7896.JPG": [
+  1030,
+  1116,
+  1425,
+  1326
+ ],
+ "test_normal/yellow/IMG_7897.JPG": [
+  744,
+  1434,
+  1375,
+  1380
+ ],
+ "test_normal/yellow/IMG_7898.JPG": [
+  918,
+  1407,
+  1411,
+  1389
+ ],
+ "test_normal/red/IMG_7887.JPG": [
+  748,
+  1604,
+  1259,
+  1236
+ ],
+ "test_normal/red/IMG_7888.JPG": [
+  587,
+  1469,
+  1322,
+  1317
+ ],
+ "test_normal/red/IMG_7889.JPG": [
+  569,
+  1595,
+  1344,
+  1331
+ ],
+ "test_normal/red/IMG_7890.JPG": [
+  533,
+  1550,
+  1389,
+  1371
+ ],
+ "test_normal/red/IMG_7891.JPG": [
+  654,
+  1564,
+  1411,
+  1434
+ ],
+ "test_normal/red/IMG_7892.JPG": [
+  762,
+  1555,
+  1465,
+  1501
+ ],
+ "test_normal/orange/IMG_7899.JPG": [
+  1026,
+  1514,
+  1348,
+  1344
+ ],
+ "test_normal/orange/IMG_7900.JPG": [
+  874,
+  1268,
+  1375,
+  1380
+ ],
+ "test_normal/orange/IMG_7901.JPG": [
+  820,
+  1496,
+  1402,
+  1469
+ ],
+ "test_normal/orange/IMG_7902.JPG": [
+  735,
+  1429,
+  1564,
+  1501
+ ],
+ "test_normal/orange/IMG_7903.JPG": [
+  699,
+  1465,
+  1613,
+  1474
+ ],
+ "test_normal/orange/IMG_7904.JPG": [
+  721,
+  1474,
+  1680,
+  1487
+ ],
+ "test_normal/blue/IMG_7917.JPG": [
+  676,
+  1452,
+  1245,
+  1210
+ ],
+ "test_normal/blue/IMG_7918.JPG": [
+  663,
+  1111,
+  1380,
+  1353
+ ],
+ "test_normal/blue/IMG_7919.JPG": [
+  672,
+  1680,
+  1308,
+  1344
+ ],
+ "test_normal/blue/IMG_7920.JPG": [
+  578,
+  1586,
+  1420,
+  1322
+ ],
+ "test_normal/blue/IMG_7921.JPG": [
+  600,
+  1541,
+  1416,
+  1340
+ ],
+ "test_normal/blue/IMG_7922.JPG": [
+  685,
+  1465,
+  1469,
+  1362
+ ],
+ "test_normal/green/IMG_7911.JPG": [
+  417,
+  1366,
+  1263,
+  1250
+ ],
+ "test_normal/green/IMG_7912.JPG": [
+  470,
+  1487,
+  1250,
+  1241
+ ],
+ "test_normal/green/IMG_7913.JPG": [
+  538,
+  1519,
+  1254,
+  1268
+ ],
+ "test_normal/green/IMG_7914.JPG": [
+  824,
+  1698,
+  1192,
+  1178
+ ],
+ "test_normal/green/IMG_7915.JPG": [
+  1048,
+  1693,
+  1187,
+  1214
+ ],
+ "test_normal/green/IMG_7916.JPG": [
+  918,
+  1178,
+  1335,
+  1272
+ ],
+ "test_bad_light/white/IMG_7924.JPG": [
+  950,
+  1080,
+  1299,
+  1380
+ ],
+ "test_bad_light/white/IMG_7925.JPG": [
+  815,
+  1322,
+  1348,
+  1272
+ ],
+ "test_bad_light/white/IMG_7926.JPG": [
+  824,
+  1272,
+  1317,
+  1322
+ ],
+ "test_bad_light/white/IMG_7927.JPG": [
+  905,
+  1398,
+  1331,
+  1353
+ ],
+ "test_bad_light/yellow/IMG_7932.JPG": [
+  784,
+  1501,
+  1452,
+  1313
+ ],
+ "test_bad_light/yellow/IMG_7933.JPG": [
+  829,
+  1322,
+  1371,
+  1299
+ ],
+ "test_bad_light/yellow/IMG_7934.JPG": [
+  820,
+  1519,
+  1425,
+  1340
+ ],
+ "test_bad_light/yellow/IMG_7935.JPG": [
+  869,
+  1429,
+  1434,
+  1317
+ ],
+ "test_bad_light/red/IMG_7936.JPG": [
+  717,
+  1201,
+  1295,
+  1335
+ ],
+ "test_bad_light/red/IMG_7937.JPG": [
+  815,
+  1245,
+  1362,
+  1380
+ ],
+ "test_bad_light/red/IMG_7938.JPG": [
+  712,
+  1223,
+  1407,
+  1375
+ ],
+ "test_bad_light/red/IMG_7939.JPG": [
+  730,
+  1340,
+  1393,
+  1348
+ ],
+ "test_bad_light/orange/IMG_7928.JPG": [
+  1003,
+  1809,
+  1790,
+  1891
+ ],
+ "test_bad_light/orange/IMG_7929.JPG": [
+  762,
+  1420,
+  1254,
+  1326
+ ],
+ "test_bad_light/orange/IMG_7930.JPG": [
+  793,
+  1344,
+  1290,
+  1313
+ ],
+ "test_bad_light/orange/IMG_7931.JPG": [
+  802,
+  1380,
+  1322,
+  1331
+ ],
+ "test_bad_light/blue/IMG_7944.JPG": [
+  672,
+  1205,
+  1357,
+  1313
+ ],
+ "test_bad_light/blue/IMG_7945.JPG": [
+  676,
+  1210,
+  1353,
+  1295
+ ],
+ "test_bad_light/blue/IMG_7946.JPG": [
+  659,
+  1228,
+  1340,
+  1290
+ ],
+ "test_bad_light/blue/IMG_7947.JPG": [
+  681,
+  1228,
+  1322,
+  1308
+ ],
+ "test_bad_light/green/IMG_7940.JPG": [
+  435,
+  1219,
+  1353,
+  1389
+ ],
+ "test_bad_light/green/IMG_7941.JPG": [
+  560,
+  1201,
+  1322,
+  1402
+ ],
+ "test_bad_light/green/IMG_7942.JPG": [
+  668,
+  1210,
+  1340,
+  1420
+ ],
+ "test_bad_light/green/IMG_7943.JPG": [
+  717,
+  1232,
+  1299,
+  1407
+ ]
+}

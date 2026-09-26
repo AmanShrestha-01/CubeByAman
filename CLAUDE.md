@@ -18,9 +18,9 @@ I know Next.js, TypeScript, Supabase. I finished one classical ML project
 ## Phase 1 plan (sticker colour classifier)
 0. Environment check ✅
 1. Tensors: how an image becomes numbers ✅
-2. Dataset: collect and label sticker images  ← CURRENT STEP. Keep a held-out test set that
+2. Dataset: collect and label sticker images ✅. Keep a held-out test set that
    includes BAD LIGHTING (dim room, warm/yellow bulb, shadow, glare).
-3. **Non-ML baseline (REQUIRED before any CNN):** classify with HSV thresholds
+3. ← CURRENT STEP. **Non-ML baseline (REQUIRED before any CNN):** classify with HSV thresholds
    in OpenCV. Measure accuracy on the test set, both overall and on the
    bad-lighting subset, and record the numbers here.
 4. CNN: layers and the forward pass.
@@ -48,6 +48,12 @@ the face fills only part of the frame, so it must be boxed before splitting.
 | train | 8 | 48 | desk room, varied positions |
 | test_normal | 6 | 36 | different room; intended bad-light shots came out normal (phone auto-exposure/white balance) |
 | test_bad_light | 4 | 24 | third spot, genuinely dim (~20-40% darker); NO shadow, glare or warm tint yet |
+
+Stickers: `ml/data/stickers/<split>/<colour>/IMG_xxxx_r<row>c<col>.png`, 64x64,
+954 total (train 424, test_normal 318, test_bad_light 212). Rebuilt any time by
+`tools/make_stickers.py` from the hand-drawn boxes in `ml/data/boxes.json`.
+White centres (logo) are skipped. Known hard example: train/blue/IMG_7873_r1c0
+is glare that looks white but is correctly labelled blue.
 
 ## Teaching rules (most important)
 - I'm here to LEARN. Explain the concept in plain words BEFORE any code.
