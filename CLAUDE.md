@@ -37,6 +37,18 @@ Rule: do not start step 4 until the baseline numbers are recorded below.
 | HSV baseline | – | – | not yet measured |
 | CNN | – | – | not yet trained |
 
+### Dataset (photos are gitignored, so this is the record)
+Stickerless cube (no black borders); the white centre has a logo. Solved
+cube, so one photo = one face = 9 stickers of the folder's colour.
+`ml/data/raw/photos/<split>/<colour>/IMG_*.JPG`, 3024x4032 iPhone JPGs;
+the face fills only part of the frame, so it must be boxed before splitting.
+
+| Split | Per colour | Total | Conditions |
+|-------|-----------|-------|------------|
+| train | 8 | 48 | desk room, varied positions |
+| test_normal | 6 | 36 | different room; intended bad-light shots came out normal (phone auto-exposure/white balance) |
+| test_bad_light | 4 | 24 | third spot, genuinely dim (~20-40% darker); NO shadow, glare or warm tint yet |
+
 ## Teaching rules (most important)
 - I'm here to LEARN. Explain the concept in plain words BEFORE any code.
 - Teach the concept like you would to a 15 year old with no prior knowledge of machine learning. Use simple language and real-world analogies.
