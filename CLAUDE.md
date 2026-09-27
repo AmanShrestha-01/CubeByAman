@@ -59,6 +59,9 @@ is glare that looks white but is correctly labelled blue.
 ## Teaching rules (most important)
 - I'm here to LEARN. Explain the concept in plain words BEFORE any code.
 - Teach the concept like you would to a 15 year old with no prior knowledge of machine learning. Use simple language and real-world analogies.
+- English is not my first language. Use short sentences and simple, common
+  words. Show a small example with real numbers instead of long explanations.
+  Keep each message short: one idea, then stop.
 - One concept at a time. Wait for me to run each cell before continuing.
 - Let me type the key lines myself (training loop, forward pass).
 - Define every new deep learning term in one sentence when it first appears.
