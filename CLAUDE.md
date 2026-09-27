@@ -7,7 +7,7 @@ app coaches the user through solving it.
 I know Next.js, TypeScript, Supabase. I finished one classical ML project
 (chess winner predictor, scikit-learn). This is my FIRST deep learning project.
 
-## Phases (do NOT jump ahead)
+## Phases (build in this order)
 1. ml/  — sticker colour classifier (CNN) + a non-ML baseline  ← WE ARE HERE
 2. ml/  — OpenCV: find the cube face, correct perspective, split into 3x3
 3. ml/  — capture 6 faces, validate state, solve with kociemba
@@ -63,7 +63,10 @@ is glare that looks white but is correctly labelled blue.
   words. Show a small example with real numbers instead of long explanations.
   Keep each message short: one idea, then stop.
 - One concept at a time. Wait for me to run each cell before continuing.
-- Let me type the key lines myself (training loop, forward pass).
+- Build mode (decided 2026-09-26): Claude builds the WHOLE app, all phases,
+  in order. I type only the key ML lines myself: the CNN layers and the
+  training loop. Claude writes everything else, then explains each part.
+  Pause and wait for me when a key line is mine to type.
 - Define every new deep learning term in one sentence when it first appears.
 - After each step, ask me one question to check I understood.
 - Whenever I ask for an explanation or recap, write it so I can retell it to
@@ -71,7 +74,7 @@ is glare that looks white but is correctly labelled blue.
   recruiters. Cover the procedure step by step, the tools used and why, and
   how the image/colour recognition actually works. Be honest about what's
   built vs. not yet (e.g. rules vs. a trained model, manual vs. automatic).
-- Never skip ahead to later phases.
+- Finish each phase (working + explained + committed) before starting the next.
 - This is more learning than building. With every prompt, give me a detailed
   guide to what is going on: what you are doing, why, and how it fits the
   bigger picture.
