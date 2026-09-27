@@ -34,7 +34,7 @@ Rule: do not start step 4 until the baseline numbers are recorded below.
 ### Results log
 | Model | Overall acc. | Bad-lighting acc. | Notes |
 |-------|--------------|-------------------|-------|
-| HSV baseline | 100% (318/318 test_normal) | 100% (212/212, dim only) | train 99.5%: 2 glare blues → white. Rules: S<71 white; H<8 red, <19 orange, <37 yellow, <79 green, <143 blue, else red. Fences = midpoints of train ranges, outliers ignored |
+| HSV baseline | 100% (318/318 test_normal) | 100% (212/212, dim only) | train 99.5%: 2 glare blues → white. Rules: S<71 white; H<8 red, <19 orange, <37 yellow, <79 green, <143 blue, else red. Fences = midpoints of train ranges, outliers ignored. test_hard_light 100% (159/159: glare, warm, shadow 53/53 each). BUT margins are thin: dim oranges sat at H=8, exactly ON the red/orange fence (0 steps to spare); glare/warm/shadow closest calls were 3 steps, all red/orange. Accuracy is saturated, so compare models by margin/stress tests, not accuracy alone |
 | CNN | – | – | not yet trained |
 
 ### Dataset (photos are gitignored, so this is the record)
@@ -48,6 +48,7 @@ the face fills only part of the frame, so it must be boxed before splitting.
 | train | 8 | 48 | desk room, varied positions |
 | test_normal | 6 | 36 | different room; intended bad-light shots came out normal (phone auto-exposure/white balance) |
 | test_bad_light | 4 | 24 | third spot, genuinely dim (~20-40% darker); NO shadow, glare or warm tint yet |
+| test_hard_light | 3 | 18 | one photo per colour per condition. Glare (wall): 7955-7960. Warm lamp (basket): 7953, 7961-7965. Shadow (carpet): 7966-7971 |
 
 Stickers: `ml/data/stickers/<split>/<colour>/IMG_xxxx_r<row>c<col>.png`, 64x64,
 954 total (train 424, test_normal 318, test_bad_light 212). Rebuilt any time by

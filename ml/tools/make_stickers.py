@@ -22,7 +22,7 @@ PHOTOS = Path("data/raw/photos")
 STICKERS = Path("data/stickers")
 BOXES = Path("data/boxes.json")
 
-SPLITS = ["train", "test_normal", "test_bad_light"]
+SPLITS = ["train", "test_normal", "test_bad_light", "test_hard_light"]
 COLOURS = ["white", "yellow", "red", "orange", "blue", "green"]
 
 TRIM = 0.2         # cut 20% off every side of a cell -> keep the middle 60%

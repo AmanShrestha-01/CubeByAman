@@ -646,5 +646,113 @@
   1232,
   1299,
   1407
+ ],
+ "test_hard_light/white/IMG_7953.JPG": [
+  699,
+  1093,
+  1393,
+  1317
+ ],
+ "test_hard_light/white/IMG_7960.JPG": [
+  721,
+  1272,
+  1210,
+  1169
+ ],
+ "test_hard_light/white/IMG_7971.JPG": [
+  896,
+  1662,
+  1228,
+  1362
+ ],
+ "test_hard_light/yellow/IMG_7956.JPG": [
+  806,
+  1308,
+  1277,
+  1232
+ ],
+ "test_hard_light/yellow/IMG_7962.JPG": [
+  699,
+  1434,
+  1389,
+  1460
+ ],
+ "test_hard_light/yellow/IMG_7967.JPG": [
+  564,
+  1169,
+  1443,
+  1254
+ ],
+ "test_hard_light/red/IMG_7957.JPG": [
+  614,
+  941,
+  1425,
+  1362
+ ],
+ "test_hard_light/red/IMG_7963.JPG": [
+  573,
+  1393,
+  1505,
+  1532
+ ],
+ "test_hard_light/red/IMG_7968.JPG": [
+  560,
+  1160,
+  1313,
+  1541
+ ],
+ "test_hard_light/orange/IMG_7955.JPG": [
+  748,
+  1371,
+  1178,
+  1124
+ ],
+ "test_hard_light/orange/IMG_7961.JPG": [
+  748,
+  1528,
+  1304,
+  1375
+ ],
+ "test_hard_light/orange/IMG_7966.JPG": [
+  614,
+  1295,
+  1196,
+  1228
+ ],
+ "test_hard_light/blue/IMG_7958.JPG": [
+  493,
+  1048,
+  1456,
+  1335
+ ],
+ "test_hard_light/blue/IMG_7964.JPG": [
+  609,
+  1492,
+  1308,
+  1254
+ ],
+ "test_hard_light/blue/IMG_7969.JPG": [
+  430,
+  1492,
+  1586,
+  1236
+ ],
+ "test_hard_light/green/IMG_7959.JPG": [
+  582,
+  726,
+  1371,
+  1460
+ ],
+ "test_hard_light/green/IMG_7965.JPG": [
+  641,
+  1402,
+  1348,
+  1344
+ ],
+ "test_hard_light/green/IMG_7970.JPG": [
+  600,
+  1259,
+  1707,
+  1344
  ]
 }
